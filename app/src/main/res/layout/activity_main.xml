@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.doktershuis.android.jichtcalculator.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/jichtCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titel"
+            android:layout_columnSpan="2"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingBottom="10dp" />
+        <TextView
+            android:text="@string/auteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/auteur"
+            android:layout_columnSpan="2"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingBottom="10dp" />
+
+        <CheckBox
+            android:text="@string/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbGeslacht" />
+
+        <CheckBox
+            android:text="@string/hypertensie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbHT" />
+
+        <CheckBox
+            android:text="@string/angina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:layout_column="1"
+            android:id="@+id/cbAP" />
+
+        <CheckBox
+            android:text="@string/ontstaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbOntstaan" />
+
+        <CheckBox
+            android:text="@string/infarct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbAMI" />
+
+        <CheckBox
+            android:text="@string/aanval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbAanval"
+            android:layout_row="8"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:text="@string/hartfalen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbHartfalen" />
+
+        <CheckBox
+            android:text="@string/roodheid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbRoodheid" />
+
+        <CheckBox
+            android:text="@string/tia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbTIA" />
+
+        <CheckBox
+            android:text="@string/eersteMTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbMTP" />
+
+        <CheckBox
+            android:text="@string/cva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbCVA"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:text="@string/urinezuur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbUrinezuur" />
+
+        <CheckBox
+            android:text="@string/pav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="update"
+            android:id="@+id/cbPAV" />
+
+        <TextView
+            android:text="@string/punt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPuntText"
+            android:paddingTop="10dp" />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPunt" />
+
+        <TextView
+            android:text="@string/pt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:id="@+id/tvPercentage"
+            android:paddingTop="10dp"
+            android:textSize="24sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/pt4a"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvToelicht"
+            android:paddingTop="10dp" />
+
+
+    </GridLayout>
+</RelativeLayout>

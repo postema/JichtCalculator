@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JichtCalculator</string>
+    <string name="ontstaan">Binnen 1 dag ontstaan</string>
+    <string name="roodheid">Roodheid</string>
+    <string name="eersteMTP">MTP 1</string>
+    <string name="hypertensie">Hypertensie</string>
+    <string name="angina">Angina pectoris</string>
+    <string name="infarct">Myocard infarct</string>
+    <string name="hartfalen">Hartfalen</string>
+    <string name="tia">TIA</string>
+    <string name="cva">CVA</string>
+    <string name="pav">PAV</string>
+    <string name="urinezuur">Urinezuur > 0,35</string>
+    <string name="auteur">Hein Janssens (2010)</string>
+    <string name="jichtCalculator">Jicht calculator</string>
+    <string name="geslacht">Geslacht</string>
+    <string name="aanval">Eerdere aanval</string>
+    <string name="perc">Percentage</string>
+    <string name="toelicht">Toelichting</string>
+    <string name="punt">Aantal punten:</string>
+    <string name="man">Man</string>
+    <string name="pt4">Geen jicht in 95%</string>
+    <string name="pt4a">Adies: Overweeg een andere diagnose. \n - septische artritis \n - CPPD artritis (pseudo-jicht) \n - auto-immuun \n - artrose</string>
+    <string name="pt48">Onduidelijke diagnose</string>
+    <string name="pt48a">Advies: gewrichtspunctie, \nindien niet mogelijk, patient monitoren</string>
+    <string name="pt8">Jicht in 87%</string>
+    <string name="pt8a">Advies: behandelen als jicht, \ninclusief monitoren van cardiovasculaire risicofactoren</string>
+
+
+</resources>
